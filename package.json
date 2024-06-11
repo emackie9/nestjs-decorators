@@ -1,7 +1,7 @@
 {
   "name": "@emackie/nestjs-decorators",
   "version": "1.0.0",
-  "description": "",
+  "description": "Additional decorators intended for use with NestJS framework.",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -9,8 +9,9 @@
   },
   "scripts": {
     "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\"",
     "lint": "eslint \"src/**/*.ts\"",
-    "lint:fix:": "eslint \"src/**/*.ts\" --fix",
+    "lint:fix": "eslint \"src/**/*.ts\" --fix",
     "test": "jest",
     "test:cov": "jest --coverage"
   },
