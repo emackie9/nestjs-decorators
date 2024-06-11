@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/emackie9/nestjs-decorators/compare/v1.2.1...v1.2.2) (2024-06-11)
+
+
+### Bug Fixes
+
+* **int:** missing `pipe` export ([#10](https://github.com/emackie9/nestjs-decorators/issues/10)) ([30ba958](https://github.com/emackie9/nestjs-decorators/commit/30ba958565c8388b3afcc05f00ae535cbffdba4f))
+
 ## [1.2.1](https://github.com/emackie9/nestjs-decorators/compare/v1.2.0...v1.2.1) (2024-06-11)
 
 
