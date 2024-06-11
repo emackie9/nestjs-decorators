@@ -69,11 +69,10 @@ Transform decimal values to integer `number` values through a rounding policy.
 ```typescript
 import {
   ApiPropertyInt,
-  ApiPropertyIntOptional,
   RoundingPolicy,
   TransformInt,
 } from '@emackie/nestjs-decorators';
-import { IsNumber, IsOptional } from 'class-validator';
+import { IsNumber } from 'class-validator';
 
 export class GetByIdDto {
   @IsNumber()
