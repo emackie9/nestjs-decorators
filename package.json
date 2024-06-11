@@ -57,6 +57,7 @@
     ],
     "coverageDirectory": "../coverage",
     "coveragePathIgnorePatterns": [
+      "index.ts",
       "swagger.ts"
     ],
     "coverageReporters": [
