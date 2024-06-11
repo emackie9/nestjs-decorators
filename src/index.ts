@@ -1,1 +1,1 @@
-export * from './int.decorator';
+export * from './int';
