@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/emackie9/nestjs-decorators/compare/v1.1.0...v1.2.0) (2024-06-11)
+
+
+### Features
+
+* **int:** add `ParseBigIntPipe` ([#5](https://github.com/emackie9/nestjs-decorators/issues/5)) ([c86339f](https://github.com/emackie9/nestjs-decorators/commit/c86339fd94853b569eea86520458d45916321f6c))
+
 ## [1.1.0](https://github.com/emackie9/nestjs-decorators/compare/v1.0.0...v1.1.0) (2024-06-11)
 
 
