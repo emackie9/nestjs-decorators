@@ -22,6 +22,7 @@ npm install @emackie/nestjs-decorators
 - `ParseBigIntPipe`
 - `TransformBigInt`
 - `TransformInt`
+- `Trim`
 
 ## Examples
 
@@ -111,5 +112,21 @@ export class MyDto {
   @IsOptional()
   @ApiPropertyDateOptional()
   optional_date?: date;
+}
+```
+
+## `Trim`
+
+```typescript
+import { Trim } from '@emackie/nestjs-decorators';
+import { ApiProperty } from '@nestjs/swagger';
+import { IsString, IsNotEmpty } from 'class-validator';
+
+export class MyDto {
+  @IsString()
+  @IsNotEmpty()
+  @Trim()
+  @ApiProperty()
+  nonEmptyString: string;
 }
 ```
