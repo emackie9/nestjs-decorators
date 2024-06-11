@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/emackie9/nestjs-decorators/compare/v1.3.0...v1.3.1) (2024-06-11)
+
+
+### Bug Fixes
+
+* **readme:** fix headings ([#18](https://github.com/emackie9/nestjs-decorators/issues/18)) ([d5db120](https://github.com/emackie9/nestjs-decorators/commit/d5db1207280c72d8e956546043455b15c4b06561))
+
 ## [1.3.0](https://github.com/emackie9/nestjs-decorators/compare/v1.2.3...v1.3.0) (2024-06-11)
 
 
