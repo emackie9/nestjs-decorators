@@ -18,7 +18,7 @@ Pipe parameters as bigint values, raising `BadRequestException` if unable to tra
 
 ```typescript
 import { ParseBigIntPipe } from '@emackie/nestjs-decorators';
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, Param } from '@nestjs/common';
 
 @Controller()
 export class AppController {
@@ -71,9 +71,9 @@ import {
   ApiPropertyInt,
   ApiPropertyIntOptional,
   RoundingPolicy,
-  TransformBigInt,
+  TransformInt,
 } from '@emackie/nestjs-decorators';
-import { IsNumber, IsInt IsOptional } from 'class-validator';
+import { IsNumber, IsOptional } from 'class-validator';
 
 export class GetByIdDto {
   @IsNumber()
