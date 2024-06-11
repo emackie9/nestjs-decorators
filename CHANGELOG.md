@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.3.0](https://github.com/emackie9/nestjs-decorators/compare/v1.2.3...v1.3.0) (2024-06-11)
+
+
+### Features
+
+* **date:** add swagger date properties ([#16](https://github.com/emackie9/nestjs-decorators/issues/16)) ([0c5a662](https://github.com/emackie9/nestjs-decorators/commit/0c5a662d332bc7e422bc5b5fbf281f7dd537972d))
+* **string:** add `Trim` transformer ([#17](https://github.com/emackie9/nestjs-decorators/issues/17)) ([248b3c3](https://github.com/emackie9/nestjs-decorators/commit/248b3c30b746c64528259c3df9e88822d9036d02))
+
+
+### Bug Fixes
+
+* **readme:** fix readme example ([#14](https://github.com/emackie9/nestjs-decorators/issues/14)) ([dd34de4](https://github.com/emackie9/nestjs-decorators/commit/dd34de4b0215a623c462d16bb01c03ba574aab6b))
+
 ## [1.2.3](https://github.com/emackie9/nestjs-decorators/compare/v1.2.2...v1.2.3) (2024-06-11)
 
 
