@@ -11,7 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - id: release-please-action
-        name: Release Please
         uses: googleapis/release-please-action@v4
         with:
           token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
