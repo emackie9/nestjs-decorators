@@ -16,7 +16,7 @@
     "test:cov": "jest --coverage"
   },
   "author": "Eric Mackie <emackie@wetraq.ca>",
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@typescript-eslint/eslint-plugin": "^7.13.0",
