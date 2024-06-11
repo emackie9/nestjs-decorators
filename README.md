@@ -1,6 +1,6 @@
 # nestjs-decorators
 
-Additional decorators intended for use with [NestJS](https://nestjs.com/) framework.
+A variety of decorators, pipes and transformers intended for use with [NestJS](https://nestjs.com/) framework.
 
 Included with each decorator are Swagger `ApiProperty` definitions to reduce boiler plate in DTOs.
 
@@ -10,9 +10,22 @@ Included with each decorator are Swagger `ApiProperty` definitions to reduce boi
 npm install @emackie/nestjs-decorators
 ```
 
-## bigint
+## Decorators
 
-### Pipe
+- `ApiPropertyBigInt`
+- `ApiPropertyBigIntOptional`
+- `ApiPropertyDate`
+- `ApiPropertyDateOptional`
+- `ApiPropertyInt`
+- `ApiPropertyIntOptional`
+- `IsBigInt`
+- `ParseBigIntPipe`
+- `TransformBigInt`
+- `TransformInt`
+
+## Examples
+
+### `ParseBigIntPipe`
 
 Pipe parameters as bigint values, raising `BadRequestException` if unable to tranform.
 
@@ -29,7 +42,7 @@ export class AppController {
 }
 ```
 
-### Transformers / Validators
+### `ApiPropertyBigInt`, `ApiPropertyBigIntOptional`, `IsBigInt`, `TransformBigInt`
 
 Validate `bigint` values or transform decimal values to `bigint` through a rounding policy.
 
@@ -43,7 +56,7 @@ import {
 } from '@emackie/nestjs-decorators';
 import { IsNumber, IsOptional } from 'class-validator';
 
-export class GetByIdDto {
+export class MyDto {
   @IsBigInt()
   @ApiPropertyBigInt()
   id: bigint;
@@ -60,9 +73,7 @@ export class GetByIdDto {
 }
 ```
 
-## int
-
-### Transformers
+## `ApiPropertyInt`, `TransformInt`
 
 Transform decimal values to integer `number` values through a rounding policy.
 
@@ -74,10 +85,31 @@ import {
 } from '@emackie/nestjs-decorators';
 import { IsNumber } from 'class-validator';
 
-export class GetByIdDto {
+export class MyDto {
   @IsNumber()
   @TransformInt({ rounding: RoundingPolicy.FLOOR })
   @ApiPropertyInt()
   floor: number;
+}
+```
+
+## `ApiPropertyDate`, `ApiPropertyDateOptional`
+
+```typescript
+import {
+  ApiPropertyDate,
+  ApiPropertyDateOptional,
+} from '@emackie/nestjs-decorators';
+import { IsDate, IsOptional } from 'class-validator';
+
+export class MyDto {
+  @IsDate()
+  @ApiPropertyDate()
+  date: date;
+
+  @IsDate()
+  @IsOptional()
+  @ApiPropertyDateOptional()
+  optional_date?: date;
 }
 ```

@@ -8,9 +8,12 @@
     "url": "https://github.com/emackie9/nestjs-decorators"
   },
   "keywords": [
-    "nestjs",
+    "bigint",
+    "date",
     "decorator",
-    "node"
+    "nestjs",
+    "node",
+    "swagger"
   ],
   "scripts": {
     "build": "tsc",
