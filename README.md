@@ -74,7 +74,7 @@ export class MyDto {
 }
 ```
 
-## `ApiPropertyInt`, `TransformInt`
+### `ApiPropertyInt`, `TransformInt`
 
 Transform decimal values to integer `number` values through a rounding policy.
 
@@ -94,7 +94,7 @@ export class MyDto {
 }
 ```
 
-## `ApiPropertyDate`, `ApiPropertyDateOptional`
+### `ApiPropertyDate`, `ApiPropertyDateOptional`
 
 ```typescript
 import {
@@ -115,7 +115,7 @@ export class MyDto {
 }
 ```
 
-## `Trim`
+### `Trim`
 
 ```typescript
 import { Trim } from '@emackie/nestjs-decorators';
