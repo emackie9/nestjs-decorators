@@ -1,5 +1,7 @@
 # nestjs-decorators
 
+**DEPRECATED: Moved to [@eddiac/nestjs-decorators](https://github.com/emackie-eddaic/nestjs-decorators)**
+
 A variety of decorators, pipes and transformers intended for use with [NestJS](https://nestjs.com/) framework.
 
 Included with each decorator are Swagger `ApiProperty` definitions to reduce boiler plate in DTOs.
