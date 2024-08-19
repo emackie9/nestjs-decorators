@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/emackie9/nestjs-decorators/compare/v1.3.2...v1.4.0) (2024-08-19)
+
+
+### Features
+
+* **docs:** update `README.md` ([#36](https://github.com/emackie9/nestjs-decorators/issues/36)) ([bbf1dce](https://github.com/emackie9/nestjs-decorators/commit/bbf1dceb84729b449a429d4f45bdcca829ef58d2))
+
 ## [1.3.2](https://github.com/emackie9/nestjs-decorators/compare/v1.3.1...v1.3.2) (2024-06-12)
 
 
